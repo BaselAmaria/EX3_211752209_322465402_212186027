@@ -34,5 +34,15 @@ public class WeakClass {
 		
 		return 1;
 	}
+	
+	public static int weakMethod4(int x, int y) {
+		if(x == 2)
+			x+=3;
+		
+		else if(x/y>0)
+			return 1;
+		
+			return -1;
+	}
 
 }
