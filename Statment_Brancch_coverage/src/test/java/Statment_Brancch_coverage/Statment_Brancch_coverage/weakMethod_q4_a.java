@@ -26,5 +26,12 @@ public class weakMethod_q4_a {
 		int expected = -1;
 		assertEquals(expected, result);
 	}
+	
+	@Test
+	public void weakmethod_q4_a_4() {
+		int result = WeakClass.weakMethod4(3, 5);
+		int expected = -1;
+		assertEquals(expected, result);
+	}
 
 }

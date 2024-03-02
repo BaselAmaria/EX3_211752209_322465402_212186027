@@ -42,6 +42,9 @@ public class WeakClass {
 		else if(x/y>0)
 			return 1;
 		
+		if(x==3)
+			x++;
+		
 			return -1;
 	}
 
