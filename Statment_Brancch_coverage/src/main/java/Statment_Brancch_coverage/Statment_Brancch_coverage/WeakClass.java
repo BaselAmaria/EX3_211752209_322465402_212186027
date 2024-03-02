@@ -11,5 +11,17 @@ public class WeakClass {
 			return -1;
 		
 	}
+	
+	
+	public static int weakMethod2(int x, int y) {
+		if (x < 0) {
+            x += 1;
+        } 
+		if (x / y > 0) {
+            return 1;
+            }
+        
+		return -1;
+	}
 
 }
